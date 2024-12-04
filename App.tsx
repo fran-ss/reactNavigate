@@ -1,20 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import {Routes} from "./src/routes/mix";
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+   <Routes/>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+//npm install @react-navigation/drawer
+//npm install @react-navigation/bottom-tabs
+//npm install @react-navigation/native-stack
+//npm install @react-navigation/native-stack
+//npx expo install react-native-screens react-native-safe-area-context
